@@ -34,6 +34,11 @@
 
 int main()
 {
-    std::cout << Summ(4,5);
+    int length{ 25 };
+    for (size_t i = 0; i < length; i++)
+    {
+        std::cout << Summ(i, ++i) << ' ';
+    }
+    std::cout << '\n';
     return 0;
 }

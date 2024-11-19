@@ -30,15 +30,14 @@
 
 #include <iostream>
 
-#include "Header.h"
+
 
 int main()
 {
-    int length{ 25 };
-    for (size_t i = 0; i < length; i++)
-    {
-        std::cout << Summ(i, ++i) << ' ';
-    }
-    std::cout << '\n';
+	for (size_t i = 0; i < 10; i++)
+	{
+		std::cout << i << ' ';
+	}
+	std::cout << '\n';
     return 0;
 }

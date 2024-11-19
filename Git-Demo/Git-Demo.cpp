@@ -31,7 +31,10 @@
 
 #include <iostream>
 
+#include "Header.h"
+
 int main()
 {
-    std::cout << "Hello World!\n";
+    std::cout << Summ(4,5);
+    return 0;
 }
